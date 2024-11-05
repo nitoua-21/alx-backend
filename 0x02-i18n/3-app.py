@@ -3,6 +3,7 @@
 from flask import Flask, render_template, request
 from flask_babel import Babel, gettext
 
+
 class Config:
     """Config class for Flask app"""
     LANGUAGES = ["en", "fr"]
