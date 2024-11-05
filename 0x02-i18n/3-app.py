@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Flask app with Babel configuration and translations"""
 from flask import Flask, render_template, request
-from flask_babel import Babel, gettext
+from flask_babel import Babel
 
 
 class Config:
